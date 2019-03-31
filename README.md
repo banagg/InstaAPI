@@ -4,6 +4,7 @@
 InstaAPIv1 is an API endpoint which extracts info about images from Instagram when given a Brand Name & a Product Name. Implemented using the Instagram scraping API whose link can be found [here](https://github.com/rarcega/instagram-scraper) (which is necessary to install to successfully run it). The scraper scrapes 100 items for both product name and the brand name and its maximum value can be changed manually from the code by changing the value in the -m paramater (though increasing the value will increase the time taken by the API to run).
 
 Technologies Used: Python
+
 Libraries Used: Flask, sqlite3, subprocess, pandas
 
 Steps to operate:
