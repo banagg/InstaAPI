@@ -34,6 +34,8 @@ def api_all():
 def success():
    return 'Currently not an active functionality'
 
+#Requests will allow you to send HTTP/1.1 requests using Python
+
 @app.route('/login',methods = ['POST', 'GET'])
 def login():
    if request.method == 'POST':
